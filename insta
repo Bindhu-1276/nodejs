@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Login</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fafafa;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .login-container {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            max-width: 400px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .login-container h2 {
+            margin-top: 0;
+            color: #262626;
+            font-weight: 600;
+            font-size: 24px;
+        }
+
+        .login-form input[type="text"],
+        .login-form input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            box-sizing: border-box;
+            border: 1px solid #dbdbdb;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        .login-form input[type="submit"] {
+            background-color: #3897f0;
+            color: white;
+            padding: 14px 20px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .login-form input[type="submit"]:hover {
+            background-color: #3578e5;
+        }
+
+        .signup-link {
+            color: #003569;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        .signup-link:hover {
+            text-decoration: underline;
+        }
+
+        .instagram-logo {
+            width: 150px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <img class="instagram-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/600px-Instagram_icon.png" alt="Instagram Logo">
+        <h2>Instagram Login</h2>
+        <form class="login-form" action="#" method="POST">
+            <input type="text" name="username" placeholder="Username or email" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <input type="submit" value="Log In">
+        </form>
+        <p>Don't have an account? <a class="signup-link" href="https://www.instagram.com/accounts/signup/">Sign up</a></p>
+    </div>
+</body>
+</html>
