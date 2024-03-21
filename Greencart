@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: auto auto;
+            background-color: #2196F3;
+            padding: 10px;      
+        }
+
+        .grid-item {
+            background-color: rgba(255, 255, 255, 0.8);
+            border: 1px solid rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            font-size: 30px;
+            text-align: center;
+        }
+        header{
+            display:flex;
+            justify-content: center;
+            background-color: darkgrey;
+        }
+        nav{
+
+            display:flex;
+            justify-content: center;
+            background-color: darkviolet;
+
+        }
+        nav a{
+            color: aliceblue;
+            padding: 10px;
+        }
+        nav a:hover{
+            cursor:pointer;
+            color:aquamarine;
+        }
+    
+    </style>
+</head>
+<body>
+   
+    <header><h1>Green Cart</h1></header>
+    <nav>
+        <a href="h.html">Intro</a>
+        <a href="h.html">about</a>
+        <a href="h.html">GreenCart</a>
+    </nav>
+    <div class="grid-container">
+        <div class="grid-item">
+            <img src="https://i.pinimg.com/originals/aa/70/8d/aa708d1f97a04f6f5a208213f89e1e67.png " height="200px"><br>
+        <a href="https://www.flipkart.com/">flipkart</a>
+        </div>
+        <div class="grid-item">
+            <img src="https://blog.logomyway.com/wp-content/uploads/2023/08/chatgpt-logo.png"height="200px"><br>
+            <a href="https://chat.openai.com/">Chatgpt</a>
+        </div>
+        <div class="grid-item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/1/13/Swiggy_logo.png"height="200px"><br>
+            <a href="https://www.swiggy.com/city/hyderabad">Swiggy</a>
+        </div>
+        <div class="grid-item">
+            <img src="https://brandmusiq.com/assets/work_banner_vyEql_Zomato.jpg"height="200px"><br>
+            <a href="https://www.zomato.com/hyderabad">Zomato</a>
+        </div>
+      </div> 
+    
+</body>
+</html>
